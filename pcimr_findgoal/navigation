@@ -54,10 +54,6 @@ class NavigationNode():
         robot_position_x = data.x
         robot_position_y = data.y
         robot_position_z = data.z
-    
-    def navigate(self):
-        return True
-
 
     def run(self, rate: float = 1):
    
