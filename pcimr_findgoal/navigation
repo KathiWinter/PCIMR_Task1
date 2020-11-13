@@ -40,10 +40,10 @@ class NavigationNode():
             rospy.loginfo("Robot reached goal!") 
         elif data.ranges[2] > 1: 
             self.pub_robot_move.publish("N")
-            rospy.loginfo("Robot turning north at %i %i" % (robot_position_x, robot_position_y))
+            rospy.loginfo("Robot going north at %i %i" % (robot_position_x, robot_position_y))
         else:
             self.pub_robot_move.publish("E")
-            rospy.loginfo("Robot turning east at %i %i" % (robot_position_x, robot_position_y))
+            rospy.loginfo("Robot going east at %i %i" % (robot_position_x, robot_position_y))
         
 
     def callback(self, data):
