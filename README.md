@@ -8,7 +8,7 @@ You can run this task by the following commands:
 `rosrun pcimr_findgoal navigation`
 
 The subscrib
-ers, publisher, service, as well as the algorithm are located in **navigation_node**. 
+ers, publisher, service, as well as the algorithm are located in **navigation** node. 
 It has the following functions:
 `def run(self, rate: float = 1)`
 This method runs the node. 
